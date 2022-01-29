@@ -1,0 +1,45 @@
+body{
+  background: linear-gradient(0deg,#C0C0C0, #F9F9F9 80%) ;
+}
+nav {
+  float: center;
+  display: flex;
+}
+.main{
+  background-color: white;
+    width: 100%;
+    height: 800px;
+}
+.logo img{
+  width: 400px !important;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#search{
+  width: 250px;
+  margin-top: 30px;
+  border-radius: 1px;
+}
+#play{
+  height: 38px;
+  margin-top: 27px;
+  margin-left: 5px;
+}
+.carousel{
+  height: 250;
+  border: 1px solid black;
+}
+.nav-tabs .nav-link{
+  color: grey;
+}
+span a{
+  color: orange;
+}
+.featured{
+  margin-top: 55px;
+}
+/* .card{
+  height: 50px;
+} */
+
+
