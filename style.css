@@ -41,5 +41,64 @@ span a{
 /* .card{
   height: 50px;
 } */
+.card-title{
+  font-size: large;
+  color: purple;
+  font-family: system-ui;
+}
+.card-text{
+  color: purple;
+}
+.quick-links{
+  margin-top: 50px;
+}
 
+.quick-links a{
+  color: black;
+}
 
+.quick-links p{
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.featured .card{
+  background: linear-gradient(0deg,#bebebe, #ffffff 80%) ;
+}
+
+.card-header{
+  cursor: pointer;
+  font-family: 'Glyphicons Halflings';
+  padding: 0.2rem 1.25rem !important;
+}
+
+.card-body{
+  background-color: white;
+}
+
+.card-body p{
+  margin-top: 10px;
+  font-size: small;
+}
+
+.card-body span{
+  position: absolute;
+  margin-left: 10px;
+}
+
+.card-body .row span{
+  font-size: small;
+}
+
+.featured .card .btn-link{
+  color: grey;
+}
+
+#headingOne{
+  content: "\e114";
+}
+
+.footer{
+  background-color: #e9e6e6;
+    height: 150px;
+}

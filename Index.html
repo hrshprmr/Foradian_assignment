@@ -6,254 +6,284 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/home/harsh/Foradian_Assignment/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="container">
-  <nav>
-    <div class="container">
-      <!-- <div class="d-flex flex-row bd-highlight  ">
-        <div class="p-2 bd-highlight">Flex item 1</div>
-        <div class="p-2 bd-highlight">Flex item 2</div>
-        <div class="p-2 bd-highlight">Flex item 3</div>
-        <div class="p-2 bd-highlight">Flex item 1</div>
-        <div class="p-2 bd-highlight">Flex item 2</div>
-        <div class="p-2 bd-highlight">Flex item 3</div>
-        <div class="p-2 bd-highlight">Flex item 1</div>
-        <div class="p-2 bd-highlight">Flex item 2</div>
-        <div class="p-2 bd-highlight">Flex item 3</div>
-      </div> -->
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-          aria-controls="nav-home" aria-selected="true">Home</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-store" role="tab"
-          aria-controls="nav-store" aria-selected="false">E-Store</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-media-centre" role="tab"
-          aria-controls="nav-media-centre" aria-selected="false">Media Centre</a>
-        <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-resources" role="tab"
-          aria-controls="nav-resources" aria-selected="true">Resources</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-          aria-controls="nav-news-room" aria-selected="false">News Room</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-          aria-controls="nav-contact" aria-selected="false">Quick Links</a>
-        <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-          aria-controls="nav-home" aria-selected="true">Programs</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-          aria-controls="nav-profile" aria-selected="false">Events</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-          aria-controls="nav-contact" aria-selected="false">Contact Us</a>
-        <p class="ml-2"><a href="#">Login/Register</a></p>
+<body>
+  <div class="container">
+    <!-------------------------------------------NAV - BAR - start
+      ----------------------------------------------------->
+    <nav>
+      <div class="container">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+            aria-controls="nav-home" aria-selected="true">Home</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-store" role="tab"
+            aria-controls="nav-store" aria-selected="false">E-Store</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-media-centre" role="tab"
+            aria-controls="nav-media-centre" aria-selected="false">Media Centre</a>
+          <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-resources" role="tab"
+            aria-controls="nav-resources" aria-selected="true">Resources</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+            aria-controls="nav-news-room" aria-selected="false">News Room</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+            aria-controls="nav-contact" aria-selected="false">Quick Links</a>
+          <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+            aria-controls="nav-home" aria-selected="true">Programs</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+            aria-controls="nav-profile" aria-selected="false">Events</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+            aria-controls="nav-contact" aria-selected="false">Contact Us</a>
+          <p class="ml-2"><a href="#">Login/Register</a></p>
+        </div>
+    </nav>
+    <!-- -----------------------------------------NAV - BAR - end --------------------------------------------------- -->
+
+    <!-- -----------------------------------------Logo and Carousel start --------------------------------------------------- -->
+
+    <div class="row main">
+      <div class="col-sm-8">
+        <div class="main1">
+          <div class="logo">
+            <img src="/home/harsh/Foradian_Assignment/images/Salvation_logo.png" alt="">
+          </div>
+          <div class="sublink mt-5">
+            <span class="mx-2"><a href="">Sublink if any | </a></span>
+            <span class="mx-2"><a href="">Sublink if any | </a></span>
+            <span class="mx-2"><a href="">Sublink if any | </a></span>
+            <span class="mx-2"><a href="">Sublink if any | </a></span>
+          </div>
+          <div class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
+                    alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
+                    alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
+                    alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- -----------------------------------------Logo and Carousel end --------------------------------------------------- -->
+
+          <!-- -----------------------------------------Cards start --------------------------------------------------- -->
+
+          <div cards>
+            <div class="card-deck mt-4">
+              <div class="card">
+                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img1.png" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img2.png" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img3.png" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- -----------------------------------------Cards end --------------------------------------------------- -->
+
+          <!-- -----------------------------------------Logo and Carousel start --------------------------------------------------- -->
+
+        </div>
       </div>
-  </nav>
-  <div class="row main">
-    <div class="col-sm-8">
-      <div class="main1">
-        <div class="logo">
-          <img src="/home/harsh/Foradian_Assignment/images/Salvation_logo.png" alt="">
+
+      <!-- -----------------------------------------Accordian start --------------------------------------------------- -->
+
+      <div class="col-sm-4">
+        <div class="form-outline d-flex">
+          <input type="search" id="search" class="form-control" placeholder="Enter search term here..."
+            aria-label="Search" />
+          <img id="play" src="/home/harsh/Foradian_Assignment/images/images/Salvation_buttonback.png" alt="">
         </div>
-        <div class="sublink mt-5">
-          <span class="mx-2"><a href="">Sublink if any | </a></span>
-          <span class="mx-2"><a href="">Sublink if any | </a></span>
-          <span class="mx-2"><a href="">Sublink if any | </a></span>
-          <span class="mx-2"><a href="">Sublink if any | </a></span>
-        </div>
-        <div class="carousel">
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
-                  alt="...">
+        <div class="featured">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link">
+                    Featured Products
+                  </button>
+                </h5>
               </div>
-              <div class="carousel-item">
-                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
-                  alt="...">
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_sideimg.png" alt="">
+                  <span>How to recieve Divine Healing</span>
+                  <p>This book is a must read for everyone that desires the healing power of ...</p>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_plus.png" alt="">
+                      <span>More Details</span>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_cart.png" alt="">
+                      <span>Add to Cart</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_mainimg.png" class="d-block w-100"
-                  alt="...">
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed">
+                    Some other category
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed">
+                    Some other category
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false"
+                aria-controls="collapsefour" id="headingfour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed">
+                    Some other category
+                  </button>
+                </h5>
+              </div>
+              <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false"
+                aria-controls="collapsefive" id="headingfive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed">
+                    Some other category
+                  </button>
+                </h5>
+              </div>
+              <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false"
+                aria-controls="collapsesix" id="headingsix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed">
+                    Some other category
+                  </button>
+                </h5>
+              </div>
+              <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch.
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div cards>
-          <div class="card-deck mt-4">
-            <div class="card">
-              <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img1.png" class="card-img-top"
-                alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-            </div>
-            <div class="card">
-              <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img2.png" class="card-img-top"
-                alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-            </div>
-            <div class="card">
-              <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_img3.png" class="card-img-top"
-                alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-            </div>
-          </div>
+        <!-- -----------------------------------------Accordian end --------------------------------------------------- -->
+        <div class="quick-links">
+          <b><a href="">Quick Links</a></b><br>
+          <p><a href="">A Note from Pastor Joseph </a></p>
+          <p><a href="">Online Bible Tools</a></p>
+          <p><a href="">Partner Enrollment</a></p>
+          <p><a href="">Enroll Now</a></p>
+          <p><a href="">Login/Register</a></p>
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="form-outline d-flex">
-        <input type="search" id="search" class="form-control" placeholder="Type query" aria-label="Search" />
-        <img id="play" src="/home/harsh/Foradian_Assignment/images/images/Salvation_buttonback.png" alt="">
-      </div>
-      <div class="featured">
-        <div id="accordion">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                  aria-controls="collapseOne">
-                  Featured Products
-                </button>
-              </h5>
-            </div>
+  </div>
+  </div>
+  </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                  aria-expanded="false" aria-controls="collapseTwo">
-                  Some other category
-                </button>
-              </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                  aria-expanded="false" aria-controls="collapseThree">
-                  Some other category
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingfour">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour"
-                  aria-expanded="false" aria-controls="collapsefour">
-                  Some other category
-                </button>
-              </h5>
-            </div>
-            <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingfive">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefive"
-                  aria-expanded="false" aria-controls="collapsefive">
-                  Some other category
-                </button>
-              </h5>
-            </div>
-            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingsix">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix"
-                  aria-expanded="false" aria-controls="collapsesix">
-                  Some other category
-                </button>
-              </h5>
-            </div>
-            <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
+  <!-- <div class="footer">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="column">
+          <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_foot1.png" alt="">
+          <p>Listen to our radio</p>
+        </div>
+        <div class="column">
+          <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_foot2.png" alt="">
+          <p>Watch our live tv service</p>
+        </div>
+        <div class="column">
+          <img src="/home/harsh/Foradian_Assignment/images/images/Salvation_foot3.png" alt="">
+          <p>Sign up for our E-newsletter</p>
         </div>
       </div>
+      <div class="col-md-6">
+        <p>@2010 Salvation Ministries Intellectual Property. All Rights reserved </p>
+      </div>
     </div>
-  </div>
-  </div>
-  </div>
-
-
+  </div> -->
 </body>
 
 </html>
