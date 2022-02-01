@@ -32,7 +32,7 @@ nav {
 }
 .carousel{
   height: 250;
-  border: 1px solid black;
+  border: 1px solid rgba(0,0,0,.125);
 }
 .carousel-indicators{
   width: 100%;
@@ -157,5 +157,17 @@ span a{
   border-bottom: .3em solid;
 }
 .sublink{
+  font-size: small;
+}
+.carousel-control-prev{
+  top: 220 !important;
+  z-index: 50 !important;
+  color: black !important;
+  font-size: small;
+}
+.carousel-control-next{
+  top: 220 !important;
+  z-index: 50 !important;
+  color: black !important;
   font-size: small;
 }
