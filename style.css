@@ -5,6 +5,11 @@ nav {
   float: center;
   display: flex;
 }
+#login{
+  display: flex;
+  align-items: center;
+  color: #d56200;;
+}
 .main{
   background-color: white;
     width: 100%;
@@ -29,18 +34,25 @@ nav {
   height: 250;
   border: 1px solid black;
 }
+.carousel-indicators{
+  width: 100%;
+  color: black;
+  margin-left: 0 !important;
+  bottom: -15px !important;
+  background: linear-gradient(0deg,#bebebe, #ffffff 80%) ;
+}
+.carousel-indicators .active{
+  background-color: purple !important;
+}
 .nav-tabs .nav-link{
   color: grey;
 }
 span a{
-  color: orange;
+  color: #d56200;;
 }
 .featured{
   margin-top: 55px;
 }
-/* .card{
-  height: 50px;
-} */
 .card-title{
   font-size: large;
   color: purple;
@@ -50,42 +62,43 @@ span a{
   color: purple;
 }
 .quick-links{
-  margin-top: 50px;
+  margin-top: 33px;
 }
-
 .quick-links a{
   color: black;
 }
-
 .quick-links p{
   margin-bottom: 0;
   font-size: small;
 }
-
 .featured .card{
   background: linear-gradient(0deg,#bebebe, #ffffff 80%) ;
 }
-
 .card-header{
   cursor: pointer;
   font-family: 'Glyphicons Halflings';
   padding: 0.2rem 1.25rem !important;
 }
-
 .card-body{
   background-color: white;
 }
-
 .card-body p{
   margin-top: 10px;
   font-size: small;
+  margin-bottom: auto;
 }
-
-.card-body span{
+.card-body #title{
   position: absolute;
   margin-left: 10px;
 }
-
+.card-body #price{
+  margin-left: 10;
+  color: grey;
+  font-size: revert;
+}
+.card-body .card-title{
+  font-size: small;
+}
 .card-body .row span{
   font-size: small;
 }
@@ -93,12 +106,56 @@ span a{
 .featured .card .btn-link{
   color: grey;
 }
-
 #headingOne{
   content: "\e114";
 }
-
 .footer{
-  background-color: #e9e6e6;
-    height: 150px;
+  background-color: #f9f9f9;;
+    height: 120px;
+}
+.footer span{
+  font-size: small;
+}
+.footer #left{
+  float: right;
+  margin-right: 30px;
+  margin-top: 30;
+}
+.footer #right{
+  margin-top: 30px;
+  font-size: small;
+}
+.card label{
+  font-size: smaller;
+  color: #d56200;;
+}
+.footer #footer{
+  width: 49%;
+  margin-top: -30px;
+  margin-left: 45px;
+}
+#para2{
+  margin-top: -14px;
+}
+#product-button{
+  font-size: smaller;
+  margin-top: 5px;
+  margin-bottom: -8px;
+  background-color: rgb(231, 158, 89);
+  color: white;
+}
+.card-link::after {
+  content: "";
+  border-bottom: 0;
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-left: .3em solid transparent;
+}
+.card-link[aria-expanded="true"]::after {
+  content: "";
+  border-top: 0;
+  border-bottom: .3em solid;
+}
+.sublink{
+  font-size: small;
 }
